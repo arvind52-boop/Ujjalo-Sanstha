@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22231d;
+}
+
+.text {
+  width: 60%;
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text::after {
+  position: absolute;
+  content: "";
+  font-size: 3vw;
+  color: rgb(109, 92, 92);
+  opacity: 0;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  animation: change-text 10s linear infinite;
+}
+
+@keyframes change-text {
+  10% {
+    opacity: 1;
+    content: "ONE";
+    color: #9a4295;
+    letter-spacing: 10px;
+  }
+
+  24% {
+    content: "HAND";
+    color: #2a44b9;
+    opacity: 1;
+    letter-spacing: 10px;
+  }
+  40% {
+    content: "MANY";
+    color: #2a44b9;
+    opacity: 1;
+    letter-spacing: 10px;
+  }
+
+  60% {
+    content: "EFFORT";
+    color: #c1b39f;
+    opacity: 1;
+    letter-spacing: 10px;
+  }
+
+  80% {
+    content: "ONE HAND MANY EFFORT!!";
+    color: #460bcf;
+    opacity: 1;
+    letter-spacing: 10px;
+  }
+
+  0%,
+  25%,
+  50%,
+  75%,
+  100% {
+    opacity: 0;
+    letter-spacing: 0;
+    color: #fff;
+    content: "";
+  }
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text"></div>
+      </div>
+</body>
+</html>

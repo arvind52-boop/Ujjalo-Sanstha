@@ -1,0 +1,77 @@
+@media screen and (max-width :892px){
+.our-team-top {
+    width: 80%;
+}}
+@media screen and (max-width :848px){
+
+    .our-team-about-us{
+        width: 500px;
+    }
+    .our-team-image{
+        width: 140px;
+        height: 140px;
+    }
+    .our-team-top {
+        width: 100%;
+    }
+}
+@media screen and (max-width :715px){
+    .our-team-about-us{
+        width: 400px;
+    }
+    .centerd {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width :615px){
+    .our-team-about-us{
+        width: 350px;
+    }
+}
+@media screen and (max-width :565px){
+    .our-team-about-us{
+        width: 350px;
+    }
+    .our-team-content{
+        flex-direction: column;
+    }
+    .centerd {
+        font-size: 31px;
+    }
+}
+@media screen and (max-width :425px){
+    .our-team-about-us{
+        width: 300px;
+    }
+    .our-team-contact {
+        margin: 10px 10px 0px 10px;
+    }
+    .centerd {
+        font-size: 23px;
+        color: black;
+    }
+}
+@media screen and (max-width :335px){
+    .our-team-about-us{
+        width: 300px;
+    }
+    .our-team-contact {
+        margin: 10px 10px 0px 0px;
+    }
+}
+@media screen and (max-width :320px){
+    .our-team-about-us{
+        width: 250px;
+    }
+    .centerd {
+        font-size: 20px;
+        
+    }}
+    @media screen and (max-width :270px){
+        .our-team-about-us{
+            width: 220px;
+        }
+        .centerd {
+            font-size: 16px;
+            
+        }}

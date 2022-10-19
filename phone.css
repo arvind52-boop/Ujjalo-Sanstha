@@ -1,0 +1,1043 @@
+@media screen and (max-width :1500px) {
+
+
+  header .contact {
+    /* border: 2px solid brown; */
+    height: 410px;
+
+  }
+
+  header {
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width :1370px) {
+  header .contact {
+    /* border: 2px solid brown; */
+    height: 450px;
+
+  }
+
+  header .contact .media-partner img {
+    width: 280px;
+  }
+
+
+  header .donate .donate-us .btns {
+    margin: 30px 10px 0px 90px;
+  }
+
+  header .donate .join-us {
+    margin: 30px 10px 0px 250px;
+  }
+
+  header .donate .contact-us {
+    margin: 30px 00px 0px 180px;
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 260px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 80px;
+  }
+
+}
+
+@media screen and (max-width :1110px) {
+  header .contact {
+    /* border: 2px solid brown; */
+    height: 410px;
+
+  }
+
+  header .contact .media-partner img {
+    width: 250px;
+  }
+
+  header .donate .donate-us .btns {
+    margin: 30px 10px 0px 90px;
+  }
+
+  header .donate .join-us {
+    margin: 30px 10px 0px 150px;
+  }
+
+  header .donate .contact-us {
+    margin: 30px 00px 0px 150px;
+  }
+
+  header .splitscreen .gallery-slide {
+    margin-top: 20px;
+  }
+
+  header .toplayer .mail {
+    margin-left: 470px;
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 260px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 80px;
+  }
+
+}
+
+@media screen and (max-width :1040px) {
+  header .contact {
+
+    height: 410px;
+
+  }
+
+
+
+  header .contact .media-partner img {
+    width: 200px;
+  }
+
+
+
+  header .donate .join-us {
+    margin: 30px 10px 0px 140px;
+  }
+
+  header .donate .contact-us {
+    margin: 30px 00px 0px 110px;
+  }
+
+  header .splitscreen .gallery-slide {
+
+    margin: 40px 0px 0px 10px;
+  }
+
+  header .toplayer .mail {
+    margin-left: 390px;
+  }
+
+  header .slideshow-container {
+    margin: 0px 0px 0px 20px;
+  }
+
+  header .bottom .address address {
+    margin: 0px 0px 0px 0px;
+  }
+
+}
+
+@media screen and (max-width :951px) {
+  header .contact {
+    height: 410px;
+  }
+
+
+
+  header .contact .media-partner img {
+
+    width: 170px;
+  }
+
+
+  header .donate .join-us {
+    margin: 30px 10px 0px 90px;
+  }
+
+  header .donate .contact-us {
+    margin: 30px 00px 0px 80px;
+  }
+
+  header .splitscreen .gallery-slide {
+    margin: 40px 0px 0px 10px;
+  }
+
+  header .bottom .address address {
+    margin: 0px 0px 0px -20px;
+  }
+
+
+  header .contact .founder img {
+    height: 130px;
+    width: 130px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 200px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 80px;
+  }
+
+
+}
+
+@media screen and (max-width :840px) {
+
+  header .toplayer .mail {
+    margin-left: 300px;
+  }
+
+  header .contact {
+
+    flex-direction: column;
+  }
+
+  header .contact .updates {
+    width: 100%;
+    margin: 5px 0px 20px -2px;
+  }
+
+  header .contact .media-partner {
+    width: 100%;
+    margin: 0px 0px 20px -5px;
+  }
+
+  header .contact .founder {
+    width: 100%;
+    margin: 0px 0px 20px -5px;
+  }
+
+  header .donate {
+    margin: 330px 0px 0px 10px;
+
+  }
+
+
+
+  header .contact .media-partner img {
+
+    width: 170px;
+  }
+
+
+
+
+  header .donate .join-us {
+    margin: 30px 10px 0px 60px;
+  }
+
+  header .donate .contact-us {
+    margin: 30px 00px 0px 60px;
+  }
+
+  header .splitscreen .gallery-slide {
+    margin: 40px 0px 0px 20px;
+  }
+
+  header .bottom .address address {
+    margin: 0px 0px 0px -30px;
+  }
+
+
+  header .contact .founder img {
+    height: 130px;
+    width: 130px;
+
+  }
+
+  header .bottom .bottom-slides {
+
+    margin: 0px 20px 0px -30px;
+    width: 30%;
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+    height: 175px;
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 70px;
+  }
+
+  header .fullcontainer nav .sidenav .naving .navbars {
+    margin-left: 20px;
+    line-height: 20px;
+    padding: 0px 5px;
+  }
+}
+
+@media screen and (max-width :730px) {
+
+  header .toplayer .mail {
+    margin-left: 150px;
+  }
+
+  header .fullcontainer nav .sidenav .naving .navbars {
+    margin-left: 10px;
+    line-height: 20px;
+    padding: 0px 0px;
+  }
+
+  header .fullcontainer nav ul .sublines {
+    margin-right: 0px;
+  }
+
+  header .donate .join-us {
+    margin: 30px 0px 0px 20px;
+  }
+
+  header .donate .donate-us {
+    margin: 1px 0px 0px -70px;
+  }
+
+  header .donate .contact-us {
+    margin: 30px 0px 0px 20px;
+  }
+
+  header .bottom .address address {
+    margin: 0px 0px 0px -15px;
+  }
+
+  header .splitscreen {
+    flex-direction: column;
+  }
+
+  header .splitscreen .split {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    margin: 100px 10px 10px 10px;
+
+  }
+
+  header .splitscreen .gallery-slide {
+    width: 50%;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header .contact {
+    margin: 70px 10px 0px 10px;
+
+  }
+
+  header .donate {
+    margin: 370px 5px 0px 10px;
+  }
+
+  header .splitscreen .gallery-slide {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 170px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 70px;
+  }
+
+}
+
+@media screen and (max-width :660px) {
+  header .about_us_page .about_us_content .side_img {
+    width: 60%;
+    height: 50vh;
+    margin: auto auto 20px auto;
+
+
+  }
+
+  header .toplayer .mail {
+    margin-left: 100px;
+  }
+
+  header .splitscreen .gallery-slide {
+    /* margin: 0px 100px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+    height: 165px;
+  }
+
+  header .fullcontainer .container #menu_list_active {
+    margin: 50px 0px 0px 0px;
+    /* display: block; */
+  }
+
+  header .fullcontainer .container h6 {
+    position: absolute;
+    right: 10px;
+    background: #111727;
+    display: flex;
+    width: 28px;
+    height: 28px;
+    background: #8a91a3;
+    border-radius: 10px 10px 10px 10px;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    cursor: pointer;
+    transition: 1s linear;
+  }
+
+  header .fullcontainer .sidenav {
+    width: 35%;
+    height: 200px;
+    flex-direction: column;
+    z-index: 999;
+    position: absolute;
+    transition: 1s linear;
+    transform: translateX(-400%);
+    margin: 0px 0px 0px 350px;
+    background: transparent;
+    opacity: 9;
+
+
+  }
+
+  header .navigation_active {
+    transform: translateX(-400%);
+  }
+
+  header .fullcontainer .sidenav .naving {
+    flex-direction: column;
+    margin: 0px 30px 0px 0px;
+    display: flex;
+    background: black;
+    color: white;
+    width: ;
+  }
+
+  header .fullcontainer nav .sidenav .naving .navbars {
+    margin: 15px auto 0px auto;
+    color: rgb(218, 232, 244);
+  }
+
+  header .fullcontainer .sidenav .naving .cross_menu {
+
+    opacity: 4;
+    /* visibility: visible; */
+    display: block;
+  }
+
+  header .fullcontainer .sidenav .naving .cross_menu i {
+    font-size: larger;
+    color: #c2c3c6;
+  }
+
+  header .donate .donate-us {
+    margin: 0px px 0px -10px;
+  }
+
+  header .donate .join-us {
+    margin: 0px px 0px 0px;
+  }
+
+  header .contact {
+    margin: 110px 10px 0px 10px;
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 150px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 60px;
+  }
+
+
+}
+
+@media screen and (max-width :560px) {
+  header .toplayer .mail {
+    margin-left: 10px;
+    font-size: small;
+  }
+
+  .developer-box {
+    margin-right: 250px;
+    margin-left: -50px;
+
+  }
+
+  header .bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+    height: auto;
+
+  }
+
+  header .bottom .animation {
+    margin: 40px 0px 40px 100%;
+    width: 250px;
+    border-radius: 20px;
+  }
+
+  header .bottom .bottom-content {
+
+    width: 250px;
+    margin: 20px 0px 0px 120px;
+    border-radius: 20px;
+
+  }
+
+  header .bottom .address {
+    width: 270px;
+    margin: 20px 0px 10px 120px;
+    border-radius: 20px;
+    border: none;
+  }
+
+  header .splitscreen .split {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header .donate {
+    flex-direction: column;
+    height: auto;
+    margin: 400px auto 20px auto;
+
+  }
+
+  header .donate .donate-us {
+    width: 70%;
+    margin: -20px 0px 10px 50px;
+
+  }
+
+  header .donate .donate-us .btns {
+    width: 70%;
+    height: ;
+  }
+
+  header .donate .join-us {
+    width: 70%;
+    margin: 0px 0px 10px 170px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 140px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 50px;
+  }
+
+  header .donate .contact-us {
+    width: 70%;
+    margin: 0px 0px 10px 170px;
+  }
+}
+
+@media screen and (max-width :502px) {
+  header .about_us_page .about_us_content {
+    flex-direction: column;
+
+  }
+
+  .dot-slide {
+    margin-bottom: 25px;
+  }
+
+  header .toplayer .mail {
+    margin-left: 0;
+    font-size: small;
+  }
+
+  header .about_us_page .about_us_content .aboutus_line {
+    width: 100%;
+    margin: auto auto 10px auto;
+    height: auto;
+    /* height: 40vh; */
+
+  }
+
+  header .donate {
+    flex-direction: column;
+    height: auto;
+    margin: 470px auto 20px auto;
+
+  }
+
+  body {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  header {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header .fullcontainer .sidenav {
+    margin: 0px 0px 0px 200px;
+    width: 200px;
+  }
+
+  header .donate .donate-us .btns {
+    width: 50%;
+    height: ;
+  }
+
+  header .donate .join-us {
+    width: 50%;
+    margin: 0px 0px 10px 110px;
+
+  }
+
+  header .donate .contact-us {
+    width: 50%;
+    margin: 0px 0px 10px 110px;
+  }
+
+  header .contact {
+    margin: 110px 10px 0px 10px;
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 110px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 50px;
+  }
+
+}
+
+@media screen and (max-width :425px) {
+  header .toplayer .mail {
+    margin-left: 0px;
+    font-size: small;
+  }
+
+  body {
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+  }
+
+  header {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header .donate {
+    height: auto;
+    margin: 550px 10px 20px 10px;
+
+  }
+
+  header .fullcontainer .sidenav {
+    margin: 0px 0px 0px 200px;
+    width: 200px;
+  }
+
+  header .donate .donate-us .btns {
+    width: 50%;
+    height: ;
+  }
+
+  header .donate .donate-us {
+    width: 60%;
+    margin: -10px 0px 10px 20px;
+
+  }
+
+  header .donate .join-us {
+    width: 60%;
+    margin: 0px 0px 10px 60px;
+
+  }
+
+  header .donate .contact-us {
+    width: 60%;
+    margin: 0px 0px 10px 60px;
+  }
+
+  header .splitscreen {
+    margin: 60px 10px 0px 10px;
+  }
+
+  header .bottom .animation {
+    margin: 40px 0px 40px 80%;
+
+    border-radius: 20px;
+  }
+
+  header .bottom .bottom-content {
+
+
+    margin: 20px auto 0px auto;
+
+
+  }
+
+  header .bottom .address {
+
+    margin: 20px 0px 10px 70px;
+
+  }
+
+  header .contact {
+    margin: 110px 10px 0px 10px;
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 100px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 30px;
+  }
+
+}
+
+/* header .toplayer .icons {
+  margin-right: 2px;
+  line-height: 6px;
+} */
+
+@media screen and (max-width :380px) {
+  body {
+    margin: 0px 0px 0px -2px;
+  }
+
+  header .toplayer .mail {
+    margin-left: 2px;
+  }
+
+  header .toplayer .icons {
+    margin-right: 2px;
+
+    line-height: 6px;
+  }
+
+  header .toplayer .icons .fa {
+    width: 21px;
+    padding: 1px;
+    margin: 1px 3px;
+  }
+
+  header .donate {
+    height: auto;
+    margin: 620px 10px 20px 10px;
+
+  }
+
+  header .fullcontainer .sidenav {
+    margin: 0px 0px 0px 160px;
+    width: 200px;
+  }
+
+  header .splitscreen {
+    margin: 90px 10px 0px 10px;
+  }
+
+  header .donate .donate-us {
+    width: 70%;
+    margin: -10px 0px 10px 20px;
+
+  }
+
+  header .bottom .address {
+
+    margin: 20px 0px 10px 50px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 96px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 30px;
+  }
+
+  header .contact {
+    margin: 150px 10px 0px 10px;
+  }
+}
+
+@media screen and (max-width :340px) {
+
+  header .bottom {
+    margin-left: 0;
+  }
+
+  header .toplayer .mail {
+    font-size: smaller;
+  }
+
+  header .toplayer .icons {
+    margin-right: 20px;
+    margin-left: 0px;
+    line-height: 6px;
+  }
+
+  header .toplayer .icons .fa {
+    width: 20px;
+    padding: 1px;
+    margin: 1px 1px;
+  }
+
+  body {
+    margin: 0px 0px 0px -2px;
+  }
+
+  header .donate {
+    height: auto;
+    margin: 650px 10px 20px 7px;
+
+  }
+
+  header .fullcontainer .sidenav {
+    margin: 0px 0px 0px 120px;
+    width: 200px;
+  }
+
+  header .splitscreen {
+    margin: 90px 10px 0px 10px;
+  }
+
+  header .donate .donate-us {
+    width: 70%;
+    margin: -10px 0px 10px -5px;
+
+  }
+
+  header .bottom .address {
+
+    margin: 20px 0px 10px 30px;
+
+  }
+
+  header .donate .join-us {
+    width: 70%;
+    margin: 0px 0px 10px 30px;
+
+  }
+
+  header .donate .contact-us {
+    width: 70%;
+    margin: 0px 0px 10px 30px;
+  }
+
+  header .bottom .animation {
+    margin: 40px 0px 40px 60%;
+
+    border-radius: 20px;
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 86px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 30px;
+  }
+
+  header .contact {
+    margin: 190px 10px 0px 10px;
+  }
+
+  header .about_us_page .about_us_content .side_img {
+
+    margin: 40px auto 20px auto;
+
+
+  }
+
+
+}
+
+@media screen and (max-width :300px) {
+  header .toplayer .icons {
+    margin-right: 25px;
+    margin-left: 0px;
+    line-height: 6px;
+  }
+
+  header .toplayer .mail {
+    font-size: 15px;
+  }
+
+  header .toplayer .icons .fa {
+    width: 18px;
+    padding: 1px;
+    margin: 1px 1px;
+  }
+
+  header .donate {
+    height: auto;
+    margin: 670px 10px 20px 10px;
+
+  }
+
+  header .fullcontainer .sidenav {
+    margin: 0px 0px 0px 90px;
+    width: 200px;
+  }
+
+  header .splitscreen {
+    margin: 120px 10px 0px 20px;
+  }
+
+  header .donate .donate-us {
+    width: 90%;
+    margin: -10px 0px 10px -5px;
+
+  }
+
+  header .bottom .address {
+
+    margin: 20px 0px 10px 30px;
+
+  }
+
+  header .donate .join-us {
+    width: 80%;
+    margin: 0px 0px 10px 30px;
+
+  }
+
+  header .donate .contact-us {
+    width: 80%;
+    margin: 0px 0px 10px 30px;
+  }
+
+  header .bottom .animation {
+    margin: 40px 0px 40px 50%;
+
+    border-radius: 20px;
+  }
+
+  header .contact {
+    margin: 150px 10px 0px 10px;
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 80px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 30px;
+  }
+
+
+}
+
+@media screen and (max-width :280px) {
+  header .toplayer .icons {
+    margin-right: 25px;
+    margin-left: 0px;
+    line-height: 4px;
+  }
+
+  header .toplayer .mail {
+    font-size: 11px;
+  }
+
+  header .toplayer .icons .fa {
+    width: 19px;
+    padding: 0px;
+    margin: 1px -1px;
+  }
+
+  header .donate {
+    height: auto;
+    margin: 670px 10px 20px 10px;
+
+  }
+
+  header .fullcontainer .sidenav {
+    margin: 0px 0px 0px 90px;
+    width: 180px;
+  }
+
+  header .splitscreen {
+    margin: 130px 10px 0px 10px;
+  }
+
+  header .donate .donate-us {
+    width: 90%;
+    margin: -10px 0px 10px -5px;
+
+  }
+
+  header .bottom .address {
+
+    margin: 20px 0px 10px 10px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image {
+
+    height: 75px;
+
+  }
+
+  header .splitscreen .gallery-slide .imageslide .more_image .btn {
+    margin: 20px;
+  }
+
+  header .contact {
+    margin: 190px 10px 0px 10px;
+  }
+
+}
+
+/* aboutus page */
+@media screen and (max-width :1280px) {
+  header .about_us_page {
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width :345px) {
+  header .about_us_page .about_us_navbar a {
+    padding: 0px 3px;
+    margin: 10px 1px 0px 2px;
+  }
+}
+/* Phone1.css */

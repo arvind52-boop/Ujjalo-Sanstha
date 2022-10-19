@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujaalo||Galeery</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="toplayer">
+            <div class="mail">
+                <a href="#">ujjalosanstha@gmail.com</a>
+
+            </div>
+            <div class="icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+
+            </div>
+        </div>
+        <div class="fullcontainer">
+
+
+
+            <nav>
+
+                <div class="container">
+
+                    <div class="logo">
+                        <img src="logo.png" alt="">UJJALO
+                        <a class="sublines">SANSTHA</a>
+                    </div>
+                    <h6 id="menu_list_active"><i class="bi bi-border-width"></i></h6>
+
+
+
+                    <div id="mySidenav" class="sidenav">
+                        <div class="naving">
+                            <div class="cross_menu"><i class="bi bi-x"></i></div>
+                            <a class="navbars" href="index.html">Home</a>
+                            <a class="navbars" href="aboutus.html">About</a>
+                            <a class="navbars" href="services.html">Oppurtunity</a>
+
+                            <a class="navbars" href="#">Contact</a>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </nav>
+
+
+        </div>
+        </div>
+
+        <div class="gallery-container">
+            <h1>Image Gallery</h1>
+            <div class="gallery_image">
+                <div class="image-class"><img src="photos/1.jpg" alt=""></div>
+                <div class="image-class"><img src="photos/2.jpg" alt=""></div>
+                <div class="image-class"><img src="photos/3.jpg" alt=""></div>
+                <div class="image-class"><img src="photos/4.jpg" alt=""></div>
+                <div class="image-class"><img src="photos/5.jpg" alt=""></div>
+                <div class="image-class"><img src="photos/6.jpg" alt=""></div>
+                <div class="image-class"><img src="photos/7.jpg" alt=""></div>
+                <div class="image-class"><img src="photos/8.jpg" alt=""></div>
+                <div class="image-class"><img src="photos/9.jpg" alt=""></div>
+            </div>
+            <div class="pop-image">
+                <span>&times;</span>
+                <img src="a.jpeg" alt="">
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="bottom-content">
+                <div class="bottom-line">
+                    <a href="#">Blogs</a><br>
+                    <a href="#">Future Aim</a><br>
+                    <a href="#">Privacy Policy</a><br>
+                    <a href="#">Developer</a><br>
+
+
+                </div>
+            </div>
+            <div class="bottom-slides">
+                <!-- <div class="quote">
+                      Campaign
+                  </div> -->
+                <div class="animation">
+                    <div class="btext"></div>
+                </div>
+
+
+            </div>
+            <div class="address">
+                <address>
+                    Founder <a href="mailto:webmaster@example.com">ANKIT KUMAR</a>.<br>
+                    Visit us at:<br>
+                    Example.com<br>
+                    Box 564, Disneyland<br>
+                    USA 45675
+                </address>
+            </div>
+
+        </div>
+
+
+    </header>
+    <script>
+        document.querySelectorAll('.gallery_image img').forEach(image => {
+
+            image.onclick = () => {
+                document.querySelector('.pop-image').style.display = 'block';
+                document.querySelector('.pop-image img').src = image.getAttribute('src');
+            }
+        });
+        document.querySelector('.pop-image span').onclick = () => {
+            document.querySelector('.pop-image').style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>

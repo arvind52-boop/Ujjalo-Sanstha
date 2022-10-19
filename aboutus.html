@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="phone1.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+    <title>UJJALO||AboutUs</title>
+
+
+</head>
+<style>
+    header .about_us_page {
+        border: 2px solid black;
+        margin: 20px 20px 0px 20px;
+        /* height: 60vh; */
+        height: auto;
+        width: auto;
+        /* background-color: rgb(215, 215, 208); */
+        background-color: rgb(100, 93, 93);
+        /* display: flex; */
+    }
+
+    header .about_us_page .about_us_navbar {}
+
+    header .about_us_page .about_us_navbar a {
+        padding: 0px 12px;
+        display: inline-block;
+        text-decoration: none;
+        /* flex-direction: row; */
+        margin: 10px 10px 0px 10px;
+        color: rgb(237, 123, 123);
+    }
+
+    header .about_us_page .about_us_navbar a:hover {
+        background-color: rgb(99, 149, 230);
+        border: 1px solid rgb(212, 140, 140);
+        color: rgb(249, 245, 246);
+    }
+
+    header .about_us_page .about_us_content {
+        text-align: center;
+        text-overflow: clip;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        word-wrap: normal;
+        display: flex;
+        color: aliceblue;
+    }
+
+    header .about_us_page .about_us_content .aboutus_line {
+        width: 50%;
+        margin: 10px auto 0px auto;
+        font-style: oblique;
+        text-align: justify;
+        height: auto;
+
+
+    }
+
+    header .about_us_page .about_us_content .aboutus_line p {
+        margin: 0px auto 0px auto;
+        text-align: center;
+
+    }
+
+    header .about_us_page .about_us_content .side_img {
+        width: 35%;
+        height: 330px;
+        margin: auto auto 20px auto;
+
+
+    }
+
+    header .about_us_page .about_us_content .side_img img {
+        width: 90%;
+        height: 90%;
+
+    }
+
+    /* hovering mission start */
+    .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        left: 0;
+    }
+
+    /* The actual popup */
+    .popup .popuptext {
+        visibility: hidden;
+        width: 100vw;
+        /* position: absolute; */
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        margin-top: 25px;
+        left: 0;
+
+
+    }
+
+    /* Popup arrow */
+    .popup .popuptext::after {
+        content: "";
+        position: absolute;
+
+    }
+
+    /* Toggle this class - hide and show the popup */
+    .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+
+
+    }
+
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .Our-Mission {
+        width: 94%;
+        background-color: rgb(255, 255, 230);
+        /* position: absolute; */
+        border: 2px solid black;
+
+        color: black;
+
+    }
+
+    .Our-Mission .mission-row1 {
+        display: flex;
+        justify-content: center;
+        width: ;
+
+    }
+
+
+    .Our-Mission .mission-row2 {
+        display: flex;
+        /* margin: 10px 0px 0px 300px; */
+        margin-top: 10px;
+        margin-right: auto;
+        justify-content: center;
+
+
+    }
+
+    .mission-vidhya {
+
+        width: 30%;
+        height: 300px;
+        margin: 2px 10px 0px 2px;
+        border-radius: 10px;
+        box-shadow: 2px 1px 11px 1px #434242;
+        background-color: #ffffcc;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .mission-swachhta {
+
+        width: 30%;
+        height: 300px;
+
+        margin: 2px 10px 0px 5px;
+        border-radius: 10px;
+        box-shadow: 2px 1px 11px 1px #434242;
+        background-color: #ffffcc;
+    }
+
+    .mission-Trishna {
+
+        width: 30%;
+        height: 300px;
+        margin: 2px 10px 0px 5px;
+        border-radius: 10px;
+        box-shadow: 2px 1px 11px 1px #434242;
+        background-color: #ffffcc;
+    }
+
+    .mission-Raahat {
+
+        width: 30%;
+        height: 300px;
+        margin: 2px 10px 0px 5px;
+        border-radius: 10px;
+        box-shadow: 2px 1px 11px 1px #434242;
+        background-color: #ffffcc;
+    }
+
+    .mission-Naryani {
+
+        width: 30%;
+        height: 300px;
+        margin: 2px 10px 0px 5px;
+        border-radius: 10px;
+        box-shadow: 2px 1px 11px 1px #434242;
+        background-color: #ffffcc;
+    }
+
+    p {
+        text-align: center;
+    }
+</style>
+
+<body>
+
+    <header>
+        <div class="toplayer">
+            <div class="mail">
+                <a href="#">info@gmail.com</a>
+
+            </div>
+            <div class="icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+
+            </div>
+        </div>
+        <div class="fullcontainer">
+
+
+
+            <nav>
+
+                <div class="container">
+
+                    <div class="logo">
+                        <img src="logo.png" alt="">UJJALO
+                        <a class="sublines">SANSTHA</a>
+                    </div>
+                    <!-- <h6 id="menu_list_active"><i class="bi bi-border-width"></i></h6> -->
+
+
+
+                    <div id="mySidenav" class="sidenav">
+                        <div class="naving">
+                            <!-- <div class="cross_menu"><i class="bi bi-x"></i></div> -->
+                            <a class="navbars" href="index.html">Home</a>
+                            <a class="navbars" href="services.html">Oppurtunity</a>
+                            <a class="navbars" href="gallery.html">Gallery</a>
+                            <a class="navbars" href="#">Contact</a>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </nav>
+
+
+        </div>
+
+        <div class="about_us_page">
+            <div class="about_us_navbar">
+                <!-- hovering element start -->
+
+
+
+
+                <!-- <a class="dropbtn" onclick="myFunction()"> Mission </a> -->
+                <!-- <div class="body-hover" style="text-align:center"> -->
+
+
+
+                <button class="popup" onclick="myFunction()">Mission
+                    <span class="popuptext" id="myPopup">
+                        <div class="Our-Mission">
+                            <div class="mission-row1">
+                                <div id="mission-id" class="mission-vidhya">
+                                    <h3>Mission Vidhya</h3>
+                                    <p>In this mission , we will
+                                        provide regular education,
+                                        and grow consciousness
+                                        about education. We will
+                                        distribute stationary items on
+                                        daily and weekly based
+                                        drives. Till now, We have
+                                        distributed stationary items
+                                        among more than 500
+                                        underprivileged children .</p>
+                                </div>
+                                <div id="mission-id" class="mission-swachhta">
+                                    <h3>Mission Swachhta</h3>
+                                    <p>SWACH BHARAT SWASTH BHARAT, this mission
+                                        principally focuses on sanitation and
+                                        hygiene in our surroundings and public
+                                        places too. Our organisation conducts
+                                        weekly drives where we clean the slum
+                                        <!-- areas, college areas and many more. Our
+                                    mission does not over at this only but
+                                    also to proprogate importance of
+                                    cleanliness in our surroundings and
+                                    country--> . Till now we have completed 3
+                                        successful drives with our youth
+                                        volunteering team and also 500
+                                        plantation has been done .
+                                    </p>
+                                </div>
+                                <div id="mission-id" class="mission-Trishna">
+                                    <h3>Mission Trishna</h3>
+                                    <p>Mission trishna is also one of the
+                                        important mission of our Sanstha.
+                                        This mission mainly focuses on food
+                                        distribution among poor section of
+                                        society and improvised people. It is
+                                        also concentrated on the awareness
+                                        among societies in our country.. Till
+                                        now we have feeded almost 2000
+                                        improverished people.</p>
+                                </div>
+                            </div>
+                            <div class="mission-row2">
+
+                                <div id="mission-id" class="mission-Raahat">
+                                    <h3>Mission Raahat</h3>
+                                    <p>Mission raahat’s focal point is
+                                        feeding of street animals ,
+                                        wrapping them in winters,
+                                        medically treat them and
+                                        escalate awareness among
+                                        community. We also conduct
+                                        special drives for animals and
+                                        till now 200 cows have been
+                                        vaccinated under the
+                                        supervision of our Ujjalo Sanstha.
+                                    </p>
+                                </div>
+
+                                <div id="mission-id" class="mission-Naryani">
+                                    <h3>Mission Naryani</h3>
+                                    <p>Mission Narayani is all about
+                                        menstrual awareness. Poor
+                                        menstrual hygiene can pose
+                                        physical health risks and has been
+                                        linked to reproductive and urinary
+                                        tract infections. We create
+                                        awareness and openness which is
+                                        one of the most effective ways to
+                                        teach girls how to properly manage
+                                        their menstrual hygiene.
+
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </span>
+                </button>
+
+
+
+                <!-- hovering element end -->
+                <a href="">Vision</a>
+
+
+
+
+
+                <!-- hovering element end -->
+                <div class="about_us_content">
+                    <div class="aboutus_line">
+                        <p>UJJALO SANSTHA is an NGO started on 26 March 2022 in rajasthan by a group of social workers
+                            who
+                            believes to work at a ground level to unfold the mild of happiness and awareness on the
+                            social
+                            issues. This sanstha is impacting the lives of many people through its diligent and
+                            commitment.
+                            It works with the motive of Social Development, Human rights, Voluntary work, Human Welfare
+                            and
+                            Education to underprivileged children.</p>
+                    </div>
+                    <div class="side_img">
+                        <img src="c.jpeg" alt="">
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="bottom">
+                <div class="bottom-content">
+                    <div class="bottom-line">
+                        <a href="#">Home</a><br>
+                        <a href="#">Blogs</a><br>
+                        <a href="#">Future Aim</a><br>
+
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="bottom-slides">
+                    <!-- <div class="quote">
+                    Campaign
+                </div> -->
+                    <div class="animation">
+                        <div class="btext"></div>
+                    </div>
+
+
+                </div>
+                <div class="address">
+                    <address>
+                        Written by <a href="mailto:webmaster@example.com">ANKIT KUMAR</a>.<br>
+                        Visit us at:<br>
+                        Example.com<br>
+                        Box 564, Disneyland<br>
+                        USA 45675
+                    </address>
+                </div>
+
+            </div>
+
+
+        </header>
+        <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
+
+
+</body>
+
+
+
+</html>
